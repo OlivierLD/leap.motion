@@ -1,4 +1,4 @@
-package tutorial.one;
+package tutorial.javaone;
 
 import com.leapmotion.leap.*;
 
