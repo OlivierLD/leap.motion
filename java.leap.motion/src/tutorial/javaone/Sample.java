@@ -9,12 +9,8 @@ public class Sample {
     // Create a sample listener and controller
     SampleListener listener = new SampleListener();
     Controller controller = new Controller();
-
-    // Have the sample listener receive events from the controller
     controller.addListener(listener);
-
-    // Keep this process running until Ente
-    // r is pressed
+    // Keep this process running until Enter is pressed
     System.out.println("Press Enter to quit...");
     try {
       System.in.read();

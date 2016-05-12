@@ -1,4 +1,4 @@
-package utils
+package scalautils
 
 object Utils {
   def caller(t: Throwable): String = {

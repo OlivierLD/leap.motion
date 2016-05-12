@@ -2,7 +2,7 @@ package tutorial.scalaone
 
 import com.leapmotion.leap.{ Controller, Frame, Listener }
 
-import utils.Utils
+import scalautils.Utils
 
 class SampleListener extends Listener {
   override def onInit(controller: Controller) {

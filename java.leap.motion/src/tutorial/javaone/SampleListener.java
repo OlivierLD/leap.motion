@@ -1,7 +1,7 @@
 package tutorial.javaone;
 
 import com.leapmotion.leap.*;
-import utils.Utils;
+import javautils.Utils;
 
 public class SampleListener extends Listener {
 
@@ -42,7 +42,8 @@ public class SampleListener extends Listener {
       System.out.println("Invoking " + Utils.caller(new Throwable()));
 //  System.out.println("Frame available");
     Frame frame = controller.frame();
-    System.out.println(frame.toString());
+  //System.out.println(frame.toString());
+    Utils.frameDump(frame);
   }
 
   @Override
